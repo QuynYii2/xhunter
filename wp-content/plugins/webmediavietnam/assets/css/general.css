@@ -1,0 +1,247 @@
+.swiper-wrapper {
+    display: flex !important;
+    flex-wrap: inherit;
+}
+.product-title{
+	text-align: center;
+}
+.product-title a{
+	color: #0A2572;
+    font-family: "Times New Roman", Sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.swiper-container {
+      width: 100%;
+      /*height: 300px;*/
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .swiper-slide {
+      background-size: ;
+      background-position: center;
+    }
+
+    .gallery-top {
+      height: 500px;
+      width: 100%;
+	  padding: 10px 0;
+    }
+
+    .gallery-thumbs {
+      height: 500px;
+      box-sizing: border-box;
+      padding: 10px 0;
+    }
+
+    .gallery-thumbs .swiper-slide {
+      width: 25%;
+      height: 100%;
+      opacity: 0.4;
+	  width: 100% !important;
+		background-position: top center !important;
+    }
+
+    .gallery-thumbs .swiper-slide-thumb-active {
+      opacity: 1;
+	  border: 1px solid #ef08b4 !important;
+    }
+	.gallery-thumbs .swiper-wrapper{
+		display: grid !important;
+    grid-template-rows: 100px 100px 100px 100px 100px;
+    grid-template-columns: 100px;
+    width: 100% !important;
+	}
+	.hero-slides .swiper-pagination-bullet {
+		width: 15px !important;
+		height: 15px !important;
+	}
+	.hero-slides .swiper-pagination-bullet-active {
+		background: #08cc23 !important;
+	}
+	.hero-slides .swiper-pagination-bullet{
+		opacity: 1;
+		background: #040404;
+	}
+	.hero-slides .swiper-pagination-bullets{
+		right: 10px !important;
+		top: 50% !important;
+		-webkit-transform: translate3d(0,-50%,0) !important;
+		transform: translate3d(0,-50%,0) !important;
+		display: inline-grid !important;
+		width: 1% !important;
+		left: 98% !important;
+		bottom: 80% !important;
+	}
+/*custom css form advanced*/
+.wmvn-form-advanced-search{
+	z-index: 999;
+}
+.advanced-search {
+    background-repeat: no-repeat;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    padding: 1.25rem 0;
+    margin-bottom: 0.9375rem;
+	margin-top: -37px;
+}
+.advanced-search .container {
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+}
+.form-advanced-search {
+    position: relative;
+    -moz-box-shadow: 1px 2px 4px rgba(0, 0, 0,0.5);
+    -webkit-box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
+    padding: 10px;
+    background: white;
+}
+.form-advanced-search .row {
+    margin-left: -7px;
+    margin-right: -7px;
+}
+.form-advanced-search.form-group {
+    margin-bottom: 1rem;
+}
+.demand-radio {
+    cursor: pointer;
+    position: relative;
+    margin-right: -4px;
+    margin-bottom: 0;
+}
+.form-advanced-search label {
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 0.3125rem;
+	display: inline-block;
+}
+.demand-radio input {
+    position: absolute;
+    z-index: -1;
+    visibility: hidden;
+    opacity: 0;
+}
+.name {
+    color: #1B7609;
+    background: #fff;
+    border: 1px solid #FF7902;
+    text-align: center;
+    display: block;
+    min-width: 8.75rem;
+    padding: 0.5rem 0.9375rem;
+}
+.name {
+    color: #fff;
+    background: #FF7902;
+}
+.name:before {
+    content: ' ';
+    position: absolute;
+    left: 50%;
+    top: 100%;
+    margin-left: -0.625rem;
+    border-top: 0.625rem solid #FF7902;
+    border-left: 0.625rem solid transparent;
+    border-right: 0.625rem solid transparent;
+}
+.count-res {
+    font-size: 1.25rem;
+    color: #fff;
+    text-align: right;
+    line-height: 1.25;
+}
+.count-res strong {
+    font-size: 1.875rem;
+    font-weight: 700;
+}
+.form-advanced-search  .form-control, .custom-select, .btn, .input-group-addon {
+    font-size: 0.8125rem;
+    font-weight: 400;
+    color: #444;
+    border-color: #ccc;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    height: 2.1875rem;
+    line-height: inherit;
+    padding-top: 0.4375rem;
+    padding-bottom: 0.4375rem;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+}
+.form-advanced-search  .form-control {
+    display: block;
+    width: 100%;
+    padding: .5rem .75rem;
+    font-size: 14px;
+    line-height: 1.25;
+    color: #464a4c;
+    background-color: #fff;
+    background-image: none;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    border: 1px solid rgba(0,0,0,.15);
+    border-radius: .25rem;
+    -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+}
+.form-advanced-search  .btn-primary {
+    color: #fff;
+    background-color: #1B7609;
+    border-color: #1B7609;
+}
+.form-advanced-search  .btn {
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+}
+.custom-select {
+    background-position: right 0.5rem center;
+    padding-left: 0.5rem;
+    padding-right: 1.25rem;
+	display: inline-block;
+    max-width: 100%;
+    height: calc(2.25rem + 2px);
+    padding: .375rem 1.75rem .375rem .75rem;
+    line-height: 1.25;
+    color: #464a4c;
+    vertical-align: middle;
+    background: #fff url(data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 4 5'%3E%3Cpath fill='%23333' d='M2 0L0 2h4zm0 5L0 3h4z'/%3E%3C/svg%3E) no-repeat right .75rem center;
+    -webkit-background-size: 8px 10px;
+    background-size: 8px 10px;
+    border: 1px solid rgba(0,0,0,.15);
+    border-radius: .25rem;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+}
+.form-advanced-search .btn-primary:hover {
+    color: #fff;
+    background-color: #FF7902;
+    border-color: #FF7902;
+}
+/*end custom css form advanced*/
+@media (min-width: 320px) and (max-width: 480px){
+	.advanced-search{
+		margin-top: 0px;
+	}
+    .hero-slides .elementor-section-wrap section {
+		min-height: 135px;
+    }
+	.hero-slides .swiper-pagination-bullets{
+		bottom: 5px !important;
+		left: 0 !important;
+		width: 100% !important;
+		top: 85% !important;
+		display: block !important;
+	}
+}
